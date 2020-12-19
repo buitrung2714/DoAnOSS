@@ -1,7 +1,4 @@
-<?php 
-	include 'include/header.php';
-	//include 'include/slider.php';
- ?>
+
  <?php 
  	if (isset($_POST['addtocart'])) {
 		if (isset($_SESSION['shopping_cart'])) {
