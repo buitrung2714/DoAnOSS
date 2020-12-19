@@ -1,4 +1,6 @@
-
+<?php
+include"include/header.php"
+?>
  <?php 
  	if (isset($_POST['addtocart'])) {
 		if (isset($_SESSION['shopping_cart'])) {
